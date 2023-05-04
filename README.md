@@ -34,11 +34,16 @@ Following parameters can be configured via the header file pomdpV9-1.h
 Descritisation levels of angles alpha and theta (Refer the documentation for the context of these angles)
 
             #define N_DIV 8 //360 degrees will be divided by N_DIV and the angles will be descrtised to nearest multiple of this number.
+            
 If the angles alpha and theta need different descritisation levels then following two lines will achieve that.
+
             #define ALPHA_MAX N_DIV
             #define THETA_MAX N_DIV
+            
 Following lines decide descritisation levels of other state parameters -
+
             #define R1SPEED_MAX 3
             #define R2SPEED_MAX 3
             #define PROXIMITY_MAX 2
             #define ACTION_MAX 6
+The number of 
