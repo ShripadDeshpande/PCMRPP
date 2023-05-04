@@ -21,7 +21,8 @@ Running the software package :
 
 **OPTIONS -**
 
--v : verbosity level of messages- 
+-v : verbosity level of messages-
+
       0 Least verbose crisp messages - the execution will be faster
       4 Highest level of verbosity - the execution will be slower
 
@@ -33,7 +34,7 @@ Running the software package :
 Following parameters can be configured via the header file pomdpV9-1.h
 Descritisation levels of angles alpha and theta (Refer the documentation for the context of these angles)
 
-            #define N_DIV 8 //360 degrees will be divided by N_DIV and the angles will be descrtised to nearest multiple of this number.
+            #define N_DIV 8 //e.g. with this value, the angle will be descrtised to nearest multiple of 360/8 i.e. 45.
             
 If the angles alpha and theta need different descritisation levels then following two lines will achieve that.
 
