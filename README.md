@@ -13,7 +13,7 @@ This software implements a novel algorithm to programmatically generate the POMD
 
 Building executable from source :
 
-            gcc -o pcmrpp pomdpV9-1.h utility.c pomdpCreateV9-1.c 
+            gcc -o pcmrpp pomdpV9-1.h utility.c pomdpCreateV9-1.c -lm
 
 Running the software package :
 
