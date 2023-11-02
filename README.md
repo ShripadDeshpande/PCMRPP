@@ -6,10 +6,10 @@ Symbiosis Institute of Technology, Pune Campus, Symbiosis International (Deemed 
 
 Emails: deshpande.shripad2@gmail.com, dr.rhareish@gmail.com
 
-POMDP file Creator for Mobile Robot Path Planning
+PCMRPP (POMDP file Creator for Mobile Robot Path Planning)
 
-This is a software package written in C for creating a pomdp file for mobile robot path planning. Partially observable Markov Decision Process (POMDP) is a well-proven mathematical framework for decision making in uncertain environment. The POMDP algorithm warks on a .pomdp file which lists down detailed states, observations, and state transition probabilities of the model. For accurately defining the states and observations in discrete space, the size of POMDP model becomes very big and creating such a file manually is a cumbersome task since it involves meticulously formulating the probabilities of huge number of state Transitions and Observations.
-This software implements a novel algorithm to programmatically generate the POMDP model. THis is implemented in C on Linux. This version is limited to only two mobile robots moving in an open 2D space with possibility of collision between them. The software creates a pomdp file which can be passed through a pomdp solver (e.g. APPL Toolkit - https://bigbird.comp.nus.edu.sg/pmwiki/farm/appl/). The resultant policy file either in the form of graph or a set of alpha vectors are used by an executioner program to generate the robot path.
+This is a software package written in C for creating a pomdp file for mobile robot path planning. Partially Observable Markov Decision Process (POMDP) is a well-proven mathematical framework for decision making in uncertain environment. The POMDP algorithm warks on a .pomdp file which lists down detailed states, observations, and state transition probabilities of the model. For accurately defining the states and observations in discrete space, the size of POMDP model becomes very big and creating such a file manually is a cumbersome task since it involves meticulously formulating the probabilities of huge number of state Transitions and Observations.
+This software implements a novel algorithm to programmatically generate the POMDP model. This is implemented in C on Linux. This version is limited to only two mobile robots moving in an open 2D space with possibility of collision between them. The software creates a pomdp file which can be passed through a pomdp solver (e.g. APPL Toolkit - https://bigbird.comp.nus.edu.sg/pmwiki/farm/appl/). The resultant policy file either in the form of graph or a set of alpha vectors are used by an executioner program to generate the robot path.
 
 Building executable from source :
 
